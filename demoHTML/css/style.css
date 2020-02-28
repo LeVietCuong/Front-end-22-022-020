@@ -1,0 +1,74 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+h2{
+    margin: 14px 0;
+}
+header h1{
+    margin: 14px 0;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+}
+header hr, .link_hr , .text, .list_hr{
+    margin: 10px auto;
+    text-align: center;
+}
+.link_hr{
+    width: 80%;    
+}
+header hr{
+    width: 50%;
+}
+.text_hr{
+    width: 90%;
+}
+h3{
+    text-align: center;
+    margin: 10px;
+}
+.text p{
+    text-align: right;
+}
+h3, .text p{
+    color: green;
+}
+.list li{
+    color: blue;
+}
+.list img{
+    width: 30%;
+}
+table{
+    margin: 0;
+}
+table td, table th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr th:last-child{
+    color: wheat;
+    background-color: green;
+}
+tr th:first-child{
+    color: wheat;
+    background-color: red;
+}
+tr th:nth-child(2n){
+    color: wheat;
+    background-color: blue;;
+}
+tr{
+    height: 34px;
+}
+td{
+    padding-left: 5px;
+}
+table tr:nth-child(2){
+    background-color: salmon;
+}
