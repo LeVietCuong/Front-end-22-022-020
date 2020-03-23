@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header a img{
+    width: 105px;
+    height: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.logo{
+    color: #fff;
+    background: #de795b;
+}
+.nav ul{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.text-container{
+    background: #c97f7f;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+.text-container span{
+    color: #503333;
+}
+.text-container h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.contain-menu .contain-titly{
+    text-align: center;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+}
+table td{
+    border:  1px solid black;
+    padding: 15px;
+}
+img{
+    width: 100% auto;
+}
+.greentea{
+    background-image: url('../images/greentea.jpg');
+    width: 40%;
+    text-align: right;
+}
+.blacktea{
+    background-image: url('../images/blacktea.jpg');
+    text-align: center;
+}
+.olongtea{
+    background-image: url('../images/olongtea.jpg');
+}
+.fluittea{
+    background-image: url('../images/fruit.jpg');
+    text-align: center;
+}
+.milktea{
+    background-image: url('../images/milktea.png');
+    text-align: center;
+}
+
+
